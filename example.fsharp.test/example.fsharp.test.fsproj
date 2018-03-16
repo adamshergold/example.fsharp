@@ -5,8 +5,8 @@
   <ItemGroup>
     <Compile Include="test.factorial.fs" />
     <Compile Include="test.fib.fs" />
+    <Compile Include="test.puzzles.fs" />
     <Compile Include="main.fs" />
-
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.3.0" />
