@@ -5,6 +5,7 @@
   <ItemGroup>
     <Compile Include="factorial.fs" />
     <Compile Include="fib.fs" />
-    <Compile Include="puzzles.fs" />
+    <Compile Include="sorting.fs" />
+    <Compile Include="trees.fs" />
   </ItemGroup>
 </Project>

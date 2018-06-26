@@ -30,14 +30,5 @@ module FibTests =
     let ``Simple-5`` () = 
         Assert.AreEqual( 5, impl 5 )
 
-
-    [<Test>]
-    let ``Combos`` () = 
-        let vs = [| "A"; "B"; "C" |]
-        let r = Fib.Combos vs 3
-        r |> Seq.iter ( fun s ->
-            printfn "%A" (s |> Array.ofSeq) ) 
-            
-        Assert.Pass()
          
         

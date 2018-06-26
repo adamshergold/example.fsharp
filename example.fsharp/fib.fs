@@ -28,17 +28,5 @@ module Fib =
         
         impl (n,1,1)
         
-    let Combos (vs:seq<'T>) (n:int) =
-    
-        let rec impl (n:int) = 
-            if n = 1 then 
-                vs |> Seq.map Seq.singleton
-            else
-                let next = impl (n-1)
-                vs
-                |> Seq.map ( fun v -> 
-                    next |> Seq.map ( fun n -> Seq.append (Seq.singleton v) n ) )
-                |> Seq.concat  
-                
-        impl n      
+  
          
